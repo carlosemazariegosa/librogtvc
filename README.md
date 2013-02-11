@@ -6,10 +6,10 @@ librogtvc
 
 ## Requerimientos
 
-> + Ruby and Rails
-> + Firebird
-> + Mysql
-> + Linux/Windows
+* Ruby and Rails
+* Firebird
+* Mysql
+* Linux/Windows
 
 
 ## Pantallas
