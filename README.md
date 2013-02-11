@@ -1,7 +1,7 @@
 librogtvc
 =========
 
-Aplicación web para llevar el libro de ventas y compras de guatemala
+## Requerimientos
 
 Ruby and Rails
 
@@ -12,20 +12,21 @@ Mysql
 Linux/Windows
 
 
+## Pantallas
 
-Mnt compras
+### Mnt compras
 
-Mnt ventas
+### Mnt ventas
 
-Mnt Proveedores
+### Mnt Proveedores
 
-Mnt Clientes
+### Mnt Clientes
 
-Mnt Empresas
+### Mnt Empresas
 
-Mnt Contactos
+### Mnt Contactos
 
-Ing ventas
+### Ing ventas
 
-Ing compras
+### Ing compras
 
