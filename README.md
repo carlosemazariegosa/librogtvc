@@ -1,6 +1,6 @@
 librogtvc
 =========
-
+---------
 ## Requerimientos
 
 Ruby and Rails
