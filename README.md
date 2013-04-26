@@ -21,6 +21,5 @@ librogtvc
 + Ing ventas
 + Ing compras
 + Rep ventas
-+ 123456
 + Rep compras
 
