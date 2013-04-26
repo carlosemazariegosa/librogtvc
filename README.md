@@ -23,3 +23,7 @@ librogtvc
 + Rep ventas
 + Rep compras
 
+## Avances
+
++ Mnt compras
++ Mnt ventas
