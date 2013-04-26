@@ -28,3 +28,5 @@ librogtvc
 + Mnt compras
 + Mnt ventas
 + Mnt Empresas
+
+## Cambios desde otra computadora
