@@ -7,29 +7,37 @@
 	background: white;
 
 }
-
-header {
-	width: 100%;
-	height: 100px;
-
-	background: dimgray;
-}
-
-article header {
-	width: 50%;
-	height: 55px;
-	margin: 5px;
-	background: silver;
-}
-
-article header p {
-	width: 50%;
-	margin: 5px;
-	background: silver;
-}
-article p {
-	width: 50%;
+#headermaster {
+	width:100%;
 	height: 50px;
-	margin: 5px;
-	background: gainsboro;	
+	background: black;
+	font-size: 25px;
+	color: white;
+}
+article {
+	width: 100%;
+	margin-top: 2px;
+	background: dimgray;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+aside {
+    width: 100%;
+	margin-top: 2px;
+	background: silver;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}
+
+footer {
+    width: 100%;
+	margin-top: 2px;
+	background: gainsboro;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+	
 }
