@@ -9,31 +9,104 @@
 }
 #headermaster {
 	width:100%;
-	height: 50px;
-	background: black;
+	height: 100px;
+	background: white;
 	font-size: 25px;
 	color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #04B404;
+}
+
+#hm1 {
+    width:16%;
+	height: 100px;
+	background: #151515;
+	float:left;
+	font-size: 25px;
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #04B404;	
+}
+
+#hm11 {
+    width: 80px;
+	height: 80px;
+	background: #151515;
+	top: 50px;
+	left: 50px;
+	margin-top: 11px;
+	margin-left: 140px;
+}
+
+#hm2 {
+    width:68%;
+	height: 100px;
+	background: #151515;
+	position:relative;
+	float:left;
+	font-size: 25px;
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #04B404;	
+}
+
+#hm3 {
+    width:16%;
+	height: 100px;
+	background: #151515;
+	float:left; 
+	font-size: 16px;
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #04B404;	
+}
+
+#hm31{
+    width:35%;
+	height: 100px;
+	background: #151515;
+	float:left; 
+	text-align: right;
+	font-size: 16px;
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #04B404;	
+}
+
+
+#cuerpo {
+	width: 100%;
+	background-image:url('../iconos/low_contrast_linen.png');
+	padding-top: 10px
+
 }
 article {
-	width: 100%;
-	margin-top: 2px;
-	background: dimgray;
+	width: 80%;
+	margin-top: 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background: silver;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
 
 aside {
-    width: 100%;
+    width: 80%;
 	margin-top: 2px;
-	background: silver;
+	background: gainsboro;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;	
 }
 
 footer {
-    width: 100%;
+    width: 80%;
 	margin-top: 2px;
 	background: gainsboro;
 	-webkit-border-radius: 10px;
