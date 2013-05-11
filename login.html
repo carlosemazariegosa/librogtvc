@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es"> 
+  <head>
+    <title>Acad - WEB</title>
+    <link href=".\css\login.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <div id="contenedor">   
+        <div id="titulo">
+           <div id="titulo2">
+			       LOGIN	
+			     </div>
+        </div>
+        <form>
+          <div id="cuerpo">
+          
+          
+              <br>
+              <label id="form_label">Usuario:</label> <br>
+              <input type="text"  
+                     name="txtusername" placeholder="Ej. ljose"
+			               required  pattern="[a-zA-Z0-9]{5,}" title="Minimo 5 letras or numeros." 
+                     size="58" maxlength="10"/> <br> <br>
+
+
+              <label id="form_label">Contrase&ntildea:</label> <br>
+			        <input name="txtpassword" 
+			               required="required" type="password" placeholder="eg. X8df!90EO"
+					           pattern="[a-zA-Z0-9]{5,}" title="Minimo 5 letras or numeros."
+                     size='58' maxlength="8"/>
+          </div>      
+        
+          <div id="control">
+            <p><input type="submit" value="Aceptar"></p> 
+          </div>
+        </form>
+        <div id="mensaje">
+          <p id="color_mensaje">Usuario o Contrase&ntildea no son v&aacutelidas</p>
+
+        </div>
+
+      </div>
+  </body>
+  </html>

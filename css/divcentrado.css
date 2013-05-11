@@ -1,0 +1,49 @@
+body {
+background-color: #FFFFFF;
+}
+
+/* Contenedor de toda la página del LOGIN */
+#contenedor {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+}
+
+#titulo {
+	position: absolute;
+	text-align: center;
+	
+	font-size: 24px;  		/* tamaño del font */
+    font-weight: bold;		/* Font en bold */
+	font-family: Arial, Helvetica, sans-serif;
+	display: table;			/* Para centrar un div, esto se hace con el id #titulo2 */
+	
+	/*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+	/*determinamos una anchura*/
+	width: 400px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-200px;
+	/*determinamos una altura*/
+	height:44px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:-190px;
+	background-color: #BBBBBB;
+	padding:5px;
+	/*para mozilla*/
+	/* border-radius:  15px; */
+    
+	/*para Safari y Chrome
+    -webkit-border-top-left-radius:  1em;
+    -webkit-border-top-right-radius: 1em;
+	*/
+}
+
+#titulo2 {
+	
+	display: table-cell;  	/* Para centrar un div, esto se hace con el id #titulo1 */
+	vertical-align: middle; /* Crea el efecto de centrado con los 2 div #titulo1 y #titulo2 */
+		
+}

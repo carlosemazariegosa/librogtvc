@@ -1,0 +1,165 @@
+* {margin: 0px;} 
+
+body {
+background-color: #FFFFFF;
+}
+
+/* Contenedor de toda la página del LOGIN */
+#contenedor {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+}
+
+#titulo {
+
+	/* TITULO PARA EL LOGIN */
+	position: absolute;
+	text-align: center;
+    
+	font-size: 24px;  		/* tamaño del font */
+    font-weight: bold;		/* Font en bold */
+	font-family: Arial, Helvetica, sans-serif;
+	display: table;			/* Para centrar un div, esto se hace con el id #titulo2 */
+	
+	/*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+	/*determinamos una anchura*/
+	width: 400px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-200px;
+	/*determinamos una altura*/
+	height:44px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:-190px;
+	background-color: #BBBBBB;
+	padding:5px;
+	/*para mozilla*/
+	/* border-radius:  15px; */
+    
+	/*para Safari y Chrome*/
+    -webkit-border-top-left-radius:  1em;
+    -webkit-border-top-right-radius: 1em;
+}
+
+#titulo2 {
+	
+	display: table-cell;  	/* Para centrar un div, esto se hace con el id #titulo1 */
+	vertical-align: middle; /* Crea el efecto de centrado con los 2 div #titulo1 y #titulo2 */
+		
+}
+#color_titulo {
+	color: #000000;
+}
+
+#color_mensaje {
+	color: #610B0B;
+	margin-top: 10px;
+}
+
+#cuerpo {
+	position: absolute;
+	text-align: left;
+
+	
+	/*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+	/*determinamos una anchura*/
+	width: 400px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-200px;
+	/*determinamos una altura*/
+	height:175px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:-135px;
+	background-color: #D8D8D8;
+	padding: 5px;
+	
+}
+
+#control {
+	position: absolute;
+	text-align: center;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+	/*determinamos una anchura*/
+	width: 400px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-200px;
+	/*determinamos una altura*/
+	height: 44px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top: 51px;
+	background-color: #BBBBBB;
+	padding: 5px;
+}
+
+
+#mensaje {
+	position: absolute;
+	text-align: center;
+    
+    /*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+	/*determinamos una anchura*/
+	width: 400px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-200px;
+	/*determinamos una altura*/
+	height: 44px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top: 106px;
+	background-color: #BBBBBB;
+	padding:5px;
+
+    /*para Safari y Chrome*/
+    -webkit-border-bottom-left-radius:  1em;
+    -webkit-border-bottom-right-radius: 1em;	
+}
+
+
+form input {
+	    
+		text-align: left;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border: 0px solid #000000;
+        padding-top: 8px;
+        padding-right: 5px;
+        padding-bottom: 8px;
+        padding-left: 5px;
+
+     }
+
+
+p input:hover{
+background: #E6E6E6;
+}
+
+
+p input {
+		text-align: left;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border: 0px solid #000000;
+        margin: 8px;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 8px;
+        padding-left: 5px;	
+}
+	 
+#form_label {
+    font-size: 16px;  		
+    font-weight: bold;		
+	font-family: Arial, Helvetica, sans-serif;
+}
+
