@@ -16,10 +16,16 @@
         <div id="hm2">
         	<div id="hm21">
         		<img src="./iconos/logo_blanco60px.png" width="80" height="80"  style="float:right;"> 
-        	</div>			
-        	<div id="hm22">
-        		<p>Usuario</p>
-				<p>Salir</p>
+        	</div>
+			<div id="hm22">
+				<br>
+				<p>Universidad Mariano Galvez</p>
+        		<p>Libro VC</p>
+			</div>			        				
+        	<div id="hm23">
+        		<br><br><br><br>
+        		<p class='letrapequena'>carlosemazariegosa - Salir</p>
+				
         	</div>			
         </div>			
         <div id="hm3">
@@ -41,38 +47,59 @@
 	<div class="medioespacio">
 		<p>&nbsp;</p>
 	</div>
-	<div class="linea">
-		<div class="etiqueta">
-			<p>Carnet:</p>
-		</div>	
-		<div class="campo">
-			<p>090 - 96 - 37</p>
-		</div>	
-	</div>
-	<div class="linea">
-		<div class="etiqueta">
-			<p>Nombre:</p>
-		</div>	
-		<div class="campo">
-			<p>JUAN ANTONIO PRUEBAS</p>
-		</div>	
-	</div>
-	<div class="linea">
-		<div class="etiqueta">
-			<p>Direccion:</p>
-		</div>	
-		<div class="campo">
-			<p>Ciudad de Guatemala</p>
-		</div>	
-	</div>
-	<div class="linea">
-		<div class="etiqueta">
-			<p>Carrera:</p>
-		</div>	
-		<div class="campo">
-			<p>Ingenieria de sistemas de la informacion</p>
-		</div>	
-	</div>
+
+
+	<form>
+		<div class="linea">
+			<div class="etiqueta">
+				<label>Carnet:</label>
+			</div>	
+			<div class="campo">
+				<input type="text"  
+                    name="txtcarnet" placeholder="Ej. 090-05-2525"
+			        required  pattern="[0-9-]{8,}" title="Debe de ingresar 8 numero con guiones como minimo" size="20" maxlength="13"/>
+			</div>	
+		</div>
+		<div class="linea">
+			<div class="etiqueta">
+				<label>Nombre:</label>
+			
+			</div>	
+			<div class="campo">
+				<input type="text"  
+                    name="txtnombre" placeholder="Ej. Maria Jose"
+			        required  pattern="[a-z A-Z]{5,}" title="Maximo de 25 numeros." size="30" maxlength="25"/>
+			</div>	
+		</div>
+		<div class="linea">
+			<div class="etiqueta">
+				<label>Direccion:</label>
+			</div>	
+			<div class="campo">
+				<input type="text"  
+                    name="txtdireccion" placeholder="Ej. 3 av. ..."
+			        required  pattern="[a-zA-Z0-9 ]{10,}" title="Minimo de 10 caracteres" size="60" maxlength="50"/>
+			</div>	
+		</div>
+		<div class="linea">
+			<div class="etiqueta">
+				<label>Carrera:</label>
+			</div>	
+			<div class="campo">
+				<input type="text"  
+                    name="txtcarrera" placeholder="Ej. Ingenieria"
+			        required  pattern="[A-Z]{10,}" title="Debe de ingresar por lo menos un nombre de 10 caracteres" size="30" maxlength="25"/>
+			</div>			
+		</div>
+		<div class="linea">
+			<div class="etiqueta">
+			</div>	
+			<div class="campo">
+				<input type="submit" value="Aceptar">
+				<input type="submit" value="Cancelar">
+			</div>			
+		</div>
+	</form>
 
 </div>
 </body>

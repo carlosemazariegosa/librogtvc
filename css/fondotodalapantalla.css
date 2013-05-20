@@ -64,18 +64,30 @@ header {
 }
 
 #hm22 {
+    width:60%;
+	height: 100px;
+	background: #151515;
+	float:left;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #04B404;	
+}
+
+#hm23 {
     width:20%;
 	height: 100px;
 	background: #151515;
 	float:right;
-	font-size: 25px;
+	font-size: 15px;
 	color: white;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-bottom-color: #04B404;	
 	text-align: right;
 }
-
 
 #hm3 {
     width:10%;
@@ -130,6 +142,7 @@ nav p:hover{
 
 #nombredeprograma {
 	margin: auto;
+	position: relative;
 	width: 80%;
 	height: 50px;
 }
@@ -156,7 +169,7 @@ nav p:hover{
 .linea {
 	margin: auto;
 	width: 80%;
-	height: 25px;
+	height: 28px;
 }
 .linea:hover {
 	background: gray;
@@ -166,9 +179,9 @@ nav p:hover{
 
 .etiqueta {
 	color: white;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: bold;	
-	margin: auto;
+	margin-top: 3px;
 	float:left;
 	width: 20%;
 	height: 25px;
@@ -176,11 +189,12 @@ nav p:hover{
 
 .campo {
 	color: white;
-	font-size: 15px;
-	margin: auto;
+	font-size: 14px;
+	margin-top: 3px;
 	float:left;
 	width: 70%;
 	height: 25px;
 }
 
 .linea p {margin-top: 2px;}
+
