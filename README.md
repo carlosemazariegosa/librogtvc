@@ -32,3 +32,4 @@ librogtvc
 ## Cambios desde otra computadora
 
 + asdf
++ Windows 7 Pro 64 Bit
